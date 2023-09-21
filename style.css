@@ -1,11 +1,11 @@
-
-    .header {
-        padding: 100px;
-        text-align: center;
-        background-image: url(https://www.pcworld.com/wp-content/uploads/2023/04/Counter-Strike-2.jpg?quality=50&strip=all&w=1024);
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-        color: white;
-        font-size: 30px;
-      }
+.header {
+  padding: 100px;
+  text-align: center;
+  background-image: url(https://www.pcworld.com/wp-content/uploads/2023/04/Counter-Strike-2.jpg?quality=50&strip=all&w=1024);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  color: white;
+  font-size: 30px;
+}
+     
