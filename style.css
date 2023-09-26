@@ -1,11 +1,55 @@
-.header {
-  padding: 100px;
-  text-align: center;
-  background-image: url(https://www.pcworld.com/wp-content/uploads/2023/04/Counter-Strike-2.jpg?quality=50&strip=all&w=1024);
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
-  color: white;
-  font-size: 30px;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: linear-gradient(to bottom, #a81616, #8b1c1c, #7a1717);
 }
-     
+
+.HEADER {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: 'Ultra', serif;
+  color: white;
+}
+.card {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: .5%;
+  justify-content: space-around;
+  border-radius: 20%;
+  vertical-align: middle;
+  margin: 2.5%;
+  transition: 0.5s all ease-in-out;
+  border-style: outset;
+  border-color: #f10909;
+  border-width: 0.6rem;
+  box-shadow: 5px 10px #331c0a;
+}
+.card-title {
+  text-transform: uppercase;
+  color: white;
+  }
+.card-img {
+  width: 480x;
+  height: 260px;
+  transition: 0.7s all ease-in-out;
+}
+#top {
+  margin-top: 12rem;
+}
+.card:hover {
+  background-color: #eb1919;
+  transform: scale(1);
+}
+
+.card-img:hover {
+  transform: scale(1.5);
+}
+
+.card-holder {
+  display: flex;
+} 
