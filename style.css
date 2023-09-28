@@ -9,6 +9,12 @@ body {
   text-transform: uppercase;
   font-family: 'Ultra', serif;
   color: white;
+animation: 4s fadeIn ease-out 1;
+
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 .card {
   display: flex;
@@ -49,8 +55,9 @@ body {
 }
 
 .card-img:hover {
-  transform: scale(1.2);
-  transform: rotate(20deg);
+  transform: rotate(359deg);
+  transform: scale(1.5);
+
  
 }
 
