@@ -11,10 +11,11 @@ body {
   color: white;
 }
 .card {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 18%;
   height: 40vh;
   background-color: rgb(255, 0, 0);
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -23,31 +24,34 @@ body {
   border-radius: 20%;
   vertical-align: middle;
   margin: 2.5%;
+  margin-bottom: 5%;
   transition: 0.5s all ease-in-out;
   border-style: outset;
   border-color: #f10909;
   border-width: 0.6rem;
-  box-shadow: 5px 10px #331c0a;
+  box-shadow: 10px 20px #331c0a;
 }
 .card-title {
   text-transform: uppercase;
   color: white;
   }
 .card-img {
-  width: 480x;
-  height: 260px;
+  width: 320x;
+  height: 200px;
   transition: 0.7s all ease-in-out;
 }
 #top {
   margin-top: 12rem;
 }
 .card:hover {
-  background-color: #eb1919;
+  background-color: #4b0f0f;
   transform: scale(1);
 }
 
 .card-img:hover {
   transform: scale(1.2);
+  transform: rotate(20deg);
+ 
 }
 
 .card-holder {
