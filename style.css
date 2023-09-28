@@ -9,7 +9,23 @@ body {
   text-transform: uppercase;
   font-family: 'Ultra', serif;
   color: white;
+  animation: 2s title ease-out 1;
 }
+ @keyframes title {
+            0% {
+                opacity: 0;
+                transform: translateY(-100%);
+            }
+            20% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 .card {
   display: flex;
   flex-direction: column;
@@ -49,9 +65,8 @@ body {
 }
 
 .card-img:hover {
-  transform: scale(1.2);
-  transform: rotate(20deg);
- 
+  transform: rotate(360deg);
+
 }
 
 .card-holder {
@@ -59,3 +74,18 @@ body {
   flex-wrap: wrap;
     justify-content: space-between;
 } 
+#Mementos:hover {
+  transform: scale(1.2);
+}
+#Bank:hover {
+filter: grayscale(1);
+}
+#Bank:hover {
+  filter: grayscale(1);
+  }
+  #castle:hover{
+    color: blue;
+  }
+  #limtless:hover{
+  filter: blur(5px);
+  }
