@@ -84,12 +84,9 @@ animation: 4s title ease-out 1;
 #Bank:hover {
 filter: grayscale(1);
 }
-#Bank:hover {
-  filter: grayscale(1);
-  }
-  #castle:hover{
-    color: blue;
-  }
+
+
+  
   #limtless:hover{
   filter: blur(5px);
   }
